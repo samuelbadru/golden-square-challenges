@@ -17,10 +17,12 @@ read_time: a string with the time in minutes interpolated (e.g.  "5.0 minutes").
 
 ## 3. Create Examples as Tests
 
+```ruby
 estimate_time("hello " * 200) => 1.0 minute
 estimate_time("hello " * 400) => 2.0 minutes
 estimate_time("hello " * 500) => 2.5 minutes
 estimate_time(" ") => 0 minutes
+```
 
 ## 4. Implement the Behaviour
 

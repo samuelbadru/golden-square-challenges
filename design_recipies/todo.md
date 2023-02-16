@@ -16,6 +16,7 @@ task_tracker: a boolean value, true or false, to show if "#TODO" is present or n
 
 ## 3. Create Examples as Tests
 
+```ruby
 todo("") => false
 todo("TODO Feed the cat") => false
 todo("#todo Go shopping") => false
@@ -23,5 +24,6 @@ todo("#TODO Wash the car") => true
 todo("#TODO Do the dishes #TODO Do the laundry") => true
 todo("#TODO") => true
 todo(1234) => false
+```
 
 ## 4. Implement the Behaviour
