@@ -1,6 +1,7 @@
 require 'diary'
 
-RSpec.describe "Make snippet method" do
+# Don't need RSpec, can just do describe
+describe "Make snippet method" do
     it "returns the string provided when 5 words or less" do
         result = make_snippet("Hello world")
         expect(result).to eq "Hello world"

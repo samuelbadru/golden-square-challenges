@@ -1,6 +1,6 @@
 require 'reading_time'
 
-RSpec.describe 'estimate_time method' do
+describe 'estimate_time method' do
     it 'returns 1 minute for a text with 200 words' do
         expect(estimate_time("hello " * 200)).to eq "1.0 minute"
     end

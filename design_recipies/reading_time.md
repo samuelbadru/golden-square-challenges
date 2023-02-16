@@ -13,7 +13,7 @@ I want to see an estimate of reading time for a text, assuming that I can read 2
 read_time = estimate_time(text)
 
 text: a string (e.g. "It was the best of times, it was the worst of times")
-read_time: an integer which represents minutes (e.g. 5 is 5 minutes)
+read_time: a string with the time in minutes interpolated (e.g.  "5.0 minutes"). A float to account for seconds.
 
 ## 3. Create Examples as Tests
 
