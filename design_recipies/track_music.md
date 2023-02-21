@@ -33,12 +33,14 @@ playlist = MusicTracker.new
 # Example 1
   playlist.displays_listened_to_tracks # => 'No tracks to display!'
 
-
 # Example 2
+  playlist.add_listened_to_track(21) # => 'Invalid input, please enter text!'
+
+# Example 3
   playlist.add_listened_to_track('Started from the bottom')
   playlist.displays_listened_to_tracks # => 'Started from the bottom'
 
-# Example 3
+# Example 4
   playlist.add_listened_to_track('One dance')
   playlist.add_listened_to_track('Love yourz')
   playlist.displays_listened_to_tracks # => 'Started from the bottom', 'One dance', 'Love yourz'
