@@ -1,5 +1,5 @@
 require 'todo'
-
+# "When nothing is listed there is nothing to do = problem domain"
 describe 'todo method' do
     it 'returns false when empty string is given' do
         expect(todo("")).to eq false
