@@ -1,4 +1,4 @@
-require 'diary_class'
+require 'diary_entry'
 
 describe DiaryEntry do
 

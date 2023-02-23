@@ -1,7 +1,7 @@
-require 'todo_class'
+require 'todo_list'
 
-describe TODO_LIST do
-  todo = TODO_LIST.new
+describe TodoList do
+  todo = TodoList.new
 
   it 'adds a task to a list and shows the resulting item' do
     list = todo.add_task('Walk the dog')
